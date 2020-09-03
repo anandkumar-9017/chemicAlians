@@ -1,0 +1,174 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+body{
+	font-family: arial;
+	background-color: #fff;
+	padding: 0px;
+	margin: 0px;
+}
+li,a,button{
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: red;
+	text-decoration: none;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px,10%;
+	background-color: #cccccc;
+	min-height: 50px;
+	border-bottom: 10px;
+	border-color: blue;
+}
+.logo{
+	cursor: pointer;
+	margin-left:10px;
+	height: 80px;
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+.nav-link{
+	list-style: none;
+}
+.nav-link li{
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+.nav-link li a{
+	transition: all 0.3s ease 0s;
+}
+.nav-link li a:hover{
+	color: #0088a9;
+}
+.sidebaricon{
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	z-index: 20;
+	top: 22px;
+	left: 15px;
+
+}
+#sidebarMenu{
+	height: 100%;
+	position: fixed;
+	background-color: white;
+	right: 0;
+	top: 80;
+	width: 250px;
+	margin-top: 0px;
+	background-color: #2e86de;
+}
+
+.menu{
+	list-style: none;
+	padding: 10px;
+	margin: 0px;
+}
+.menu li{
+	color: #fff;
+	border-bottom: 1px solid rgba(255,255,255,.10);
+}
+.menu li a{
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 20px;
+}
+.container{
+	min-height: 30px;
+	width: 100%;
+	font-family: serif;
+
+}
+
+.titledbackground{
+	background-image:  url(./welcome.jpeg) ;
+	background-size: 100%;
+	min-height: 300px;
+	border: 2px solid;
+	opacity: .8;	
+}
+
+#Welcome{
+	text-align: center;
+}
+
+#Welcome h1 {
+	color: #FB7908;
+	padding-top: 20px;
+}
+#Welcome h2{
+	color: #FB7908;
+	padding-top: 20px;
+}
+
+#aboutchemicalengineering{
+	margin-top: 5px;
+	padding: 5px;
+	text-align: none;
+	font-style: serif;
+
+}
+button{
+	padding: 9px 25px;
+	background-color: rgba(0,136,169,1);
+	border none;
+	border-radius: 52px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	margin-right: 20px;
+
+}
+button:hover{
+	background-color: rgba(0,136,169,.8)
+}
+
+#developer{
+	background-color:#0B1E16;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+footer{
+	min-height: 30px;
+	background-color: #080501; 
+	color: white;
+	padding: 20px;
+	font-size: 20;
+	text-align: center;
+}
+
+
+.aboutbackground{
+	background-image:  url(./subjectback.jpeg) ;
+	background-size: 100%;
+	min-height: 300px;
+	border: 2px solid;
+	opacity: 1.2;	
+}
+
+.bookcontent{
+	text-align: center;
+	padding: 10px;
+	padding-left: 50px;
+}
+
+
+#book{
+	
+	width: 80%;
+	color: white;
+
+}
