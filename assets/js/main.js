@@ -1,9 +1,4 @@
-/**
-* Template Name: Rapid - v2.2.0
-* Template URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function($) {
   "use strict";
 
@@ -79,8 +74,6 @@
       }
     }
   });
-
- 
 
   // Activate smooth scroll on page load with hash links in the url
   $(document).ready(function() {
@@ -176,12 +169,7 @@
     });
   });
 
-  // Initiate venobox (lightbox feature used in portofilo)
-  $(document).ready(function() {
-    $('.venobox').venobox({
-      'share': false
-    });
-  });
+
 
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
@@ -209,13 +197,7 @@
     }
   });
 
-  // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
-  });
+  
 
   // Init AOS
   function aos_init() {
